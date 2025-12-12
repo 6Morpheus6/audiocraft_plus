@@ -1,0 +1,21 @@
+# please make sure you have already a pytorch install that is cuda enabled!
+av
+einops
+flashy>=0.0.1
+hydra-core>=1.1
+hydra_colorlog
+julius
+num2words
+numpy
+sentencepiece
+spacy==3.8.11
+huggingface_hub[hf_xet]==0.36.0
+tqdm
+transformers>=4.31.0  # need Encodec there.
+demucs
+librosa
+gradio==3.50.2
+gradio_client==0.6.1
+torchmetrics
+encodec
+pytaglib
