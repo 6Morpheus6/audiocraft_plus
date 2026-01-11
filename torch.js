@@ -44,8 +44,8 @@ module.exports = {
         "venv": "{{args && args.venv ? args.venv : null}}",
         "path": "{{args && args.path ? args.path : '.'}}",
         "message": [
-          "pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1",
-          "pip install xformers==0.0.20"
+          "uv pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1",
+          "uv pip install xformers==0.0.20"
         ]
       }
     },
