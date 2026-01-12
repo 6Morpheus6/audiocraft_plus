@@ -45,7 +45,7 @@ module.exports = {
         "path": "{{args && args.path ? args.path : '.'}}",
         "message": [
           "uv pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1",
-          "uv pip install xformers==0.0.20"
+          "uv pip install xformers==0.0.20 --no-build-isolation"
         ]
       }
     },
